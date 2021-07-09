@@ -3,7 +3,11 @@
 
 namespace Functions{
 
+// pass by value
 
+// pass by pointer
+
+// pass by reference
 
 }
 
