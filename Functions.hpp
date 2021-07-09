@@ -1,0 +1,10 @@
+#ifndef CPPCOURSE_FUNCTIONS_HPP
+#define CPPCOURSE_FUNCTIONS_HPP
+
+namespace Functions{
+
+
+
+}
+
+#endif //CPPCOURSE_FUNCTIONS_HPP
