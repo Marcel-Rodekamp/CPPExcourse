@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <complex>
 /* C++
  *
  * This is a collection of different topics related to the C++ language.
@@ -17,6 +17,23 @@
 #include "Templates.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+//    Basics::ErrorHandling::runtime_err_example();
+
+//    Functions::func_example();
+//    OOP::Classes::constr_example();
+
+//    OOP::Polymorphism::print_int(1);
+//    OOP::Polymorphism::print_int(1.2);
+//    OOP::Polymorphism::print_int(1.6);
+
+//    OOP::Polymorphism::operator_overloading_example();
+//    OOP::Polymorphism::runtime_polym_example();
+//    OOP::Inheritance::inheritance_example();
+
+    Templates::function<char *>("abc");
+    Templates::function<double>(3.1415);
+    Templates::function(std::complex<double>(0.,0.));
+
     return 0;
 }
