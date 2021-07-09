@@ -8,3 +8,5 @@
 /httpRequests/
 # cmake
 cmake-build-release
+# clion
+.idea
